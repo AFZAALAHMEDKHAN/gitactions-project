@@ -35,7 +35,7 @@ jobs:
       with:
         image: afzaalkhan21/university
         tags: v1, latest
-        registry: registry-url.io
+        registry: docker.io
         username: ${{ secrets.AFZAAL_KHAN }}
         password: ${{ secrets.AFZAAL_KHAN_01 }}
 
